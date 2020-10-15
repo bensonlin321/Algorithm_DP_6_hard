@@ -53,7 +53,7 @@ public:
 
         int max = prices[prices.size()-1];
         for (int i = prices.size() - 2 ; i >= 0 ; i--) {
-            // find the minimum value
+            // find the maximum value
             max = std::max(max, prices[i]);
 
             // calculate ith day's maximum profit
